@@ -1,10 +1,10 @@
 {
-    "title": "About",
+    "title": "About us",
     "type": "page",
     "sections": [
         {
             "type": "heading",
-            "content": "Interior Page",
+            "content": "About Us",
             "level": 1
         },
         {
