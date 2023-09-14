@@ -6,6 +6,12 @@ export default defineStackbitConfig({
   ssgName: 'custom',
   nodeVersion: '18',
   devCommand: "NODE_ENV=development DEV_PORT={PORT} node ./lib/framework.js dev",
+  experimental: {
+    ssg: {
+      name: 'Ryans Rad Example',
+      logPatterns: { up: ['Ready for changes'] }
+    },
+  },
   contentSources: [
     new GitContentSource({
       rootPath: __dirname,
