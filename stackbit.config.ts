@@ -5,10 +5,10 @@ export default defineStackbitConfig({
   stackbitVersion: '~0.6.0',
   ssgName: 'custom',
   nodeVersion: '18',
-  devCommand: "NODE_ENV=development DEV_PORT={PORT} node ./lib/framework.js dev",
+  devCommand: "npm run dev",
   experimental: {
     ssg: {
-      name: 'Ryans Rad Example',
+      name: 'custom',
       logPatterns: { up: ['Ready for changes'] }
     },
   },
