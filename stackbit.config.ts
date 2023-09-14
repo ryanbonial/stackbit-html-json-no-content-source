@@ -5,7 +5,7 @@ export default defineStackbitConfig({
   stackbitVersion: '~0.6.0',
   ssgName: 'custom',
   nodeVersion: '18',
-  devCommand: 'npm run dev',
+  devCommand: "NODE_ENV=development DEV_PORT={PORT} node ./lib/framework.js dev",
   contentSources: [
     new GitContentSource({
       rootPath: __dirname,
