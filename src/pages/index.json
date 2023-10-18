@@ -4,12 +4,12 @@
     "sections": [
         {
             "type": "heading",
-            "content": "Home Page!!",
+            "content": "Home Page",
             "level": 1
         },
         {
             "type": "paragraph",
-            "content": "This is text on the home page\n"
+            "content": "This is text on the home page!\n"
         },
         {
             "type": "heading",
